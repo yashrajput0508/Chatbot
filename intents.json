@@ -1,0 +1,26 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["how are you","Hi", "Is anyone there?","Hey", "Hello", "Have a good day","good","great work"],
+         "responses": ["Fine and You sir","Hi sir", "yes, how can I help sir?","Hello sir","Hello sir","Same to you sir","Good","thanks for appriciation"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["Bye Sir","See you sir!", "Have a nice day sir", "Bye! Come back again soon sir","Ok sir"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome", "Thanks for helping me","your welcome","fine","ok"],
+         "responses": ["Happy to help sir!","Welcome sir", "My pleasure sir","Thank you sir", "Any time sir!","Any time sir","very nice","yah"]
+        },
+  {
+      "tag": "wishes",
+    "patterns": ["morning","good morning","evening","good evening","afternoon","good afternoon","night","good night"],
+    "responses": ["Good Morning sir","Good Morning sir","Good Evening sir","Good Evening sir","Good Afternoon sir","Good Afternoon sir","Good Night sir","Good Night sir"]
+  },
+  {
+    "tag": "info",
+    "patterns": ["Who are you","Tell Me Something about yourself","who is your developer"],
+    "responses": ["I am alis the chatbot","I am alis the chatbot","My developer name is Yash Rajput"]
+  }
+
+]
+}
